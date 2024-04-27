@@ -117,9 +117,56 @@
   },
   "Preview /sections/BlogPosts.tsx": {
     "__resolveType": "site/sections/BlogPosts.tsx",
-    "posts": {
-      "__resolveType": "blog/loaders/BlogpostList.ts",
-      "count": 6
+    "pagination": {},
+    "posts": [
+      {
+        "authors": [],
+        "categories": [
+          {
+            "name": "Culture",
+            "slug": "culture"
+          }
+        ],
+        "title": "Corte de Cabelo Masculino",
+        "excerpt": "Obtenha o corte de cabelo perfeito para realçar sua aparência e estilo único. Nossos talentosos barbeiros combinam habilidade e criatividade para oferecer cortes modernos e clássicos que se adequam ao seu gosto e personalidade.",
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8359/e44830c9-c2e0-4e72-ae6b-c24cb0597116",
+        "date": "2024-04-27",
+        "slug": "corte-de-cabelo-masculino",
+        "content": "<p><span style=\"color: rgb(236, 236, 236)\">Desfrute de uma experiência de corte de cabelo incomparável em nossa barbearia. Começamos com uma consulta personalizada para entender suas preferências e estilo de vida. Em seguida, nossos especialistas aplicam suas habilidades afiadas para criar um corte que realce suas melhores características e reflita sua individualidade. Com atenção aos detalhes e produtos de qualidade, garantimos um resultado que você vai adorar.</span></p>"
+      },
+      {
+        "authors": [],
+        "categories": [
+          {
+            "name": "Culture",
+            "slug": "culture"
+          }
+        ],
+        "content": "<p><span style=\"color: rgb(236, 236, 236)\">Desfrute de uma experiência de corte de cabelo incomparável em nossa barbearia. Começamos com uma consulta personalizada para entender suas preferências e estilo de vida. Em seguida, nossos especialistas aplicam suas habilidades afiadas para criar um corte que realce suas melhores características e reflita sua individualidade. Com atenção aos detalhes e produtos de qualidade, garantimos um resultado que você vai adorar.</span></p>",
+        "title": "Corte de Cabelo Masculino",
+        "excerpt": "Obtenha o corte de cabelo perfeito para realçar sua aparência e estilo único. Nossos talentosos barbeiros combinam habilidade e criatividade para oferecer cortes modernos e clássicos que se adequam ao seu gosto e personalidade.",
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8359/e44830c9-c2e0-4e72-ae6b-c24cb0597116",
+        "date": "2024-04-27",
+        "slug": "corte-de-cabelo-masculino"
+      },
+      {
+        "authors": [],
+        "categories": [
+          {
+            "name": "Culture",
+            "slug": "culture"
+          }
+        ],
+        "content": "<p><span style=\"color: rgb(236, 236, 236)\">Desfrute de uma experiência de corte de cabelo incomparável em nossa barbearia. Começamos com uma consulta personalizada para entender suas preferências e estilo de vida. Em seguida, nossos especialistas aplicam suas habilidades afiadas para criar um corte que realce suas melhores características e reflita sua individualidade. Com atenção aos detalhes e produtos de qualidade, garantimos um resultado que você vai adorar.</span></p>",
+        "title": "Corte de Cabelo Masculino",
+        "excerpt": "Obtenha o corte de cabelo perfeito para realçar sua aparência e estilo único. Nossos talentosos barbeiros combinam habilidade e criatividade para oferecer cortes modernos e clássicos que se adequam ao seu gosto e personalidade.",
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8359/e44830c9-c2e0-4e72-ae6b-c24cb0597116",
+        "date": "2024-04-27",
+        "slug": "corte-de-cabelo-masculino"
+      }
+    ],
+    "cta": {
+      "text": "Serviços de Barbearia Premium"
     }
   },
   "Preview /sections/Faq.tsx": {
@@ -147,6 +194,9 @@
     },
     "copyright": "© 2024 WDM Solutions. All rights reserved."
   },
+  "Preview /sections/Header.tsx": {
+    "__resolveType": "site\\sections\\Header.tsx"
+  },
   "Preview /sections/Hero.tsx": {
     "__resolveType": "site/sections/Hero.tsx",
     "placement": "left",
@@ -158,7 +208,12 @@
   "Preview /sections/ImageWithParagraph.tsx": {
     "__resolveType": "site/sections/ImageWithParagraph.tsx",
     "placement": "left",
-    "cta": []
+    "cta": [],
+    "disableSpacing": {
+      "top": true,
+      "bottom": true
+    },
+    "title": " "
   },
   "Preview /sections/MainPost.tsx": {
     "__resolveType": "site/sections/MainPost.tsx",
@@ -170,7 +225,45 @@
     }
   },
   "Preview /sections/Testimonials.tsx": {
-    "__resolveType": "site/sections/Testimonials.tsx"
+    "__resolveType": "site/sections/Testimonials.tsx",
+    "slides": [
+      {
+        "content": {
+          "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8359/02667b12-9f93-460d-bd3a-0320d1c58ab5",
+          "position": "Um dos melhores cortes de cabelo que já fiz. A equipe foi muito profissional e nova exatamente o que estavam fazendo. Descobri o penteado perfeito para mim.",
+          "description": "Corte em degradê",
+          "name": "Estilo do corte"
+        }
+      },
+      {
+        "content": {
+          "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8359/02667b12-9f93-460d-bd3a-0320d1c58ab5",
+          "description": "Corte em degradê",
+          "name": "Estilo do corte",
+          "position": "Um dos melhores cortes de cabelo que já fiz. A equipe foi muito profissional e nova exatamente o que estavam fazendo. Descobri o penteado perfeito para mim."
+        }
+      },
+      {
+        "content": {
+          "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8359/02667b12-9f93-460d-bd3a-0320d1c58ab5",
+          "description": "Corte em degradê",
+          "name": "Estilo do corte",
+          "position": "Um dos melhores cortes de cabelo que já fiz. A equipe foi muito profissional e nova exatamente o que estavam fazendo. Descobri o penteado perfeito para mim."
+        }
+      },
+      {
+        "content": {
+          "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8359/02667b12-9f93-460d-bd3a-0320d1c58ab5",
+          "description": "Corte em degradê",
+          "name": "Estilo do corte",
+          "position": "Um dos melhores cortes de cabelo que já fiz. A equipe foi muito profissional e nova exatamente o que estavam fazendo. Descobri o penteado perfeito para mim."
+        }
+      }
+    ],
+    "title": "Avaliações de Clientes",
+    "arrows": false,
+    "dots": true,
+    "interval": 5
   },
   "Preview site/sections/Hero.tsx": {
     "__resolveType": "site/sections/Hero.tsx"
@@ -329,23 +422,20 @@
     "__resolveType": "blog/loaders/Blogpost.ts",
     "post": {
       "authors": [
-        {
-          "name": "Name of the Author",
-          "email": "author@deco.cx"
-        }
+        null
       ],
       "categories": [
         {
-          "name": "Customization",
-          "slug": "customization"
+          "name": "Culture",
+          "slug": "culture"
         }
       ],
-      "content": "<h1>Lorem Ipsum Dolor Sit Tiptap</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Nullam faucibus venenatis quam, ut laoreet nisi fermentum eget.</strong> Sed <em>pellentesque</em> egestas odio, <u>quis viverra nunc gravida non</u>. <s>Integer imperdiet ligula et lectus pharetra porta.</s></p><h2>H2: Maecenas Ultrices Ullamcorper Felis</h2><p>Donec <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.deco.cx/\">pulvinar</a> magna nec mi sodales, in volutpat tortor pretium. Phasellus <code>consequat</code> libero eu ligula aliquet, id ornare metus ultrices.</p><h3>H3: Aenean sed diam ipsum</h3><ul><li><p>Lorem ipsum dolor sit amet</p></li><li><p>Vestibulum ante ipsum primis</p></li><li><p>Proin accumsan porttitor felis</p></li></ul><h3>H3: Ordered List Example</h3><p>1. Praesent elementum ante nec nibh rhoncus 2. Mauris vel tincidunt turpis 3. Donec a volutpat diam</p><h2>Image Time!</h2><p><img src=\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/682eb374-def2-4e85-a45d-b3a7ff8a31a9\"></p><h2>Blockquote with a Twist</h2><blockquote><p>Fusce finibus mauris vitae eros tincidunt, vitae vulputate neque egestas. Sed in ex ac urna volutpat ornare.</p><p></p></blockquote><p>Cras mattis consectetur purus sit amet fermentum. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>",
-      "slug": "lorem-ipsum",
-      "excerpt": "Discover Tiptap's rich formatting options in this whimsical \"lorem ipsum\" inspired blog post.",
-      "title": "Harness the Power of Tiptap: A Lorem Ipsum Inspired Demo",
+      "content": "<h1><strong>Corte de Cabelo Masculino</strong></h1><p></p><h5><span style=\"color: rgb(236, 236, 236)\">Descubra o Estilo Perfeito para Você</span></h5><p></p><p><span style=\"color: rgb(236, 236, 236)\">Você merece um visual que reflita sua personalidade única. Em nossa barbearia, oferecemos uma variedade de cortes de cabelo masculinos, desde os clássicos até os mais modernos. Nossos talentosos barbeiros estão aqui para ouvir suas preferências e transformá-las em um corte que complementa seu estilo de vida e realça sua aparência.</span></p><p></p><h2><span style=\"color: rgb(236, 236, 236)\">Uma Experiência Além do Corte</span></h2><p></p><p><span style=\"color: rgb(236, 236, 236)\">Queremos que sua visita à nossa barbearia seja mais do que apenas um corte de cabelo. É por isso que criamos um ambiente acolhedor, onde você pode relaxar e desfrutar de um momento só seu. Nossa equipe está dedicada a proporcionar uma experiência excepcional, garantindo que você saia não apenas com um ótimo corte, mas também revigorado e pronto para enfrentar o mundo lá fora.</span></p><p></p><p></p><h3>Qualidade e Precisão em Cada Corte</h3><p><br><span style=\"color: rgb(236, 236, 236)\">Ao longo dos anos, construímos uma reputação de excelência em serviços de barbearia, graças ao nosso compromisso com a qualidade e atenção aos detalhes. Cada corte de cabelo é realizado com habilidade e precisão, garantindo resultados que superam suas expectativas. Venha nos visitar e descubra por que somos a escolha preferida para homens que valorizam estilo e sofisticação.</span></p><p></p><h3><span style=\"color: rgb(236, 236, 236)\">Confiança e Renovação em Cada Visita</span></h3><p></p><p><span style=\"color: rgb(236, 236, 236)\">Queremos que você se sinta confiante e renovado após cada visita à nossa barbearia. Deixe-nos cuidar do seu visual enquanto você relaxa e aproveita o momento</span></p>",
+      "slug": "corte-de-cabelo-masculino",
+      "excerpt": "Obtenha o corte de cabelo perfeito para realçar sua aparência e estilo único. Nossos talentosos barbeiros combinam habilidade e criatividade para oferecer cortes modernos e clássicos que se adequam ao seu gosto e personalidade.",
+      "title": " Corte de Cabelo Masculino",
       "date": "2024-04-10",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/682eb374-def2-4e85-a45d-b3a7ff8a31a9"
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8359/d536a48e-db9d-45b4-a5b1-c389d57b4f20"
     }
   },
   "collections/blog/posts/1c8bb9f3d71d": {
@@ -548,14 +638,10 @@
         }
       },
       {
-        "__resolveType": "site/sections/BlogPosts.tsx",
-        "posts": {
-          "__resolveType": "blog/loaders/BlogpostList.ts",
-          "count": 6
-        }
+        "__resolveType": "Preview /sections/BlogPosts.tsx"
       },
       {
-        "__resolveType": "Preview /sections/BlogPosts.tsx"
+        "__resolveType": "Preview /sections/Testimonials.tsx"
       },
       {
         "__resolveType": "site/sections/Footer.tsx",
@@ -580,7 +666,19 @@
         "copyright": "© 2024 WDM Solutions. All rights reserved."
       },
       {
-        "__resolveType": "Preview /sections/ImageWithParagraph.tsx"
+        "__resolveType": "site/sections/BlogPosts.tsx",
+        "posts": [
+          {
+            "__resolveType": "collections/blog/posts/173aa7daa089"
+          }
+        ],
+        "cta": {
+          "text": "Nossos serviços"
+        },
+        "pagination": {
+          "page": 4,
+          "perPage": 2
+        }
       }
     ],
     "__resolveType": "website/pages/Page.tsx",
