@@ -1,1 +1,1 @@
-{"__resolveType":"site/sections/Header.tsx","navigation":{"links":[],"buttons":[]}}
+{"__resolveType":"site/sections/Header.tsx","navigation":{"links":[{"label":"Sobre","url":"#"},{"label":"Serviços","url":"#"}],"buttons":[{"href":"#","text":"Agendar horário","outline":false}]},"logo":{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8359/c5fbf7cd-1a83-4d4f-bbf5-95cef672ee84"}}

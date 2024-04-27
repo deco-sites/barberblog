@@ -53,8 +53,26 @@
   "Header": {
     "__resolveType": "site/sections/Header.tsx",
     "navigation": {
-      "links": [],
-      "buttons": []
+      "links": [
+        {
+          "label": "Sobre",
+          "url": "#"
+        },
+        {
+          "label": "Serviços",
+          "url": "#"
+        }
+      ],
+      "buttons": [
+        {
+          "href": "#",
+          "text": "Agendar horário",
+          "outline": false
+        }
+      ]
+    },
+    "logo": {
+      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8359/c5fbf7cd-1a83-4d4f-bbf5-95cef672ee84"
     }
   },
   "Neutral": {
@@ -112,8 +130,22 @@
     "__resolveType": "site/sections/Footer.tsx",
     "links": [],
     "bottomLinks": [],
-    "social": [],
-    "subscribe": {}
+    "social": [
+      {
+        "network": "Facebook",
+        "href": "#"
+      },
+      {
+        "network": "Instagram",
+        "href": "#"
+      }
+    ],
+    "subscribe": {},
+    "madeWith": {
+      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8359/10690789-1adf-42cf-bb03-ef2c5c2cf263",
+      "href": "WDM Solutions"
+    },
+    "copyright": "© 2024 WDM Solutions. All rights reserved."
   },
   "Preview /sections/Hero.tsx": {
     "__resolveType": "site/sections/Hero.tsx",
@@ -496,9 +528,16 @@
       },
       {
         "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Click here to tweak this text however you want.</p>",
-        "description": "This text is entirely editable, tailor it freely.",
-        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8359/b147652a-e689-411e-aad7-990e0bb00b1f"
+        "title": "<p>Barbearia com Estilo!</p>",
+        "description": "Venha conhecer nossa barbearia no coração do Taboão da Serra! Cortes de cabelo e barba com qualidade e estilo. Ambiente acolhedor e profissionais experientes. Venha se cuidar e sair com um visual renovado. Esperamos por você!",
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8359/c2399a70-9e7b-4fae-80be-7d9c67554eae",
+        "cta": [
+          {
+            "text": "Agendar horário",
+            "outline": true,
+            "href": "#"
+          }
+        ]
       },
       {
         "__resolveType": "site/sections/MainPost.tsx",
@@ -515,10 +554,32 @@
         }
       },
       {
-        "__resolveType": "Footer"
+        "__resolveType": "Preview /sections/BlogPosts.tsx"
       },
       {
-        "__resolveType": "Preview /sections/BlogPosts.tsx"
+        "__resolveType": "site/sections/Footer.tsx",
+        "links": [],
+        "bottomLinks": [],
+        "social": [
+          {
+            "network": "Facebook",
+            "href": "#"
+          },
+          {
+            "network": "Instagram",
+            "href": "#"
+          }
+        ],
+        "subscribe": {},
+        "logo": {},
+        "madeWith": {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8359/a3b04948-ea29-40be-ace7-5fa9090d9d69",
+          "href": "WDM Solutions"
+        },
+        "copyright": "© 2024 WDM Solutions. All rights reserved."
+      },
+      {
+        "__resolveType": "Preview /sections/ImageWithParagraph.tsx"
       }
     ],
     "__resolveType": "website/pages/Page.tsx",
