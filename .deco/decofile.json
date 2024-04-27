@@ -92,9 +92,9 @@
       "--tab-radius": "0.5rem"
     },
     "mainColors": {
-      "base-100": "#ffffff",
-      "primary": "#171717",
-      "secondary": "#c7c7c7",
+      "base-100": "#0D121E",
+      "primary": "#F0B35B",
+      "secondary": "#FFFFFF",
       "tertiary": "#404040",
       "neutral": "#333333",
       "success": "#008060",
@@ -528,16 +528,17 @@
       },
       {
         "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Barbearia com Estilo!</p>",
         "description": "Venha conhecer nossa barbearia no coração do Taboão da Serra! Cortes de cabelo e barba com qualidade e estilo. Ambiente acolhedor e profissionais experientes. Venha se cuidar e sair com um visual renovado. Esperamos por você!",
-        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8359/c2399a70-9e7b-4fae-80be-7d9c67554eae",
+        "title": "<p>Barbearia com Estilo!</p>",
         "cta": [
           {
             "text": "Agendar horário",
-            "outline": true,
-            "href": "#"
+            "href": "#",
+            "outline": false
           }
-        ]
+        ],
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8359/c2399a70-9e7b-4fae-80be-7d9c67554eae",
+        "placement": "left"
       },
       {
         "__resolveType": "site/sections/MainPost.tsx",
